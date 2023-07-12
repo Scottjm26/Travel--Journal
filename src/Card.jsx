@@ -7,7 +7,7 @@ return( <div className ="main-container">
         <img src ={props.data.imageUrl} />
         <div className ="info-container">
         
-        <h3 className ="country-name"> 📍 {props.data.location}<span><a href="{props.data.googleMapsUrl}">View on Google Maps</a></span> </h3>
+        <h3 className ="country-name"> 📍 {props.data.location}<span><a href={props.data.googleMapsUrl}>View on Google Maps</a></span> </h3>
        
         <h1>{props.data.title}</h1>
         <h4>{props.data.startDate} - {props.data.endDate}</h4>
