@@ -1,0 +1,64 @@
+.header{
+ text-align: center;
+ background-color:#F55A5A;
+ color:white;
+}
+
+
+
+.main-container{
+  display:flex;
+  margin: 0 auto;
+  text-align: start;
+  align-items: center;
+  margin-top: 20px;
+  width:470px;
+  height:168px;
+}
+.info-container{
+  margin-left:20px;
+}
+
+
+img{
+  width:125px;
+  height:168px;
+  border-radius:5px;
+}
+span{
+  text-decoration: underline;
+  color:#918E9b;
+  font-size:10px;
+  margin-left:5px;
+}
+h3{
+  font-size:10px;
+
+}
+h1{
+  font-size:25px;
+  font-weight:700;
+  margin:0px;
+  padding:0px;
+}
+h4{
+  margin:0px;
+  margin-top:20px;
+  margin-bottom:10px;
+  font-size: 11px;
+  font-weight:bolder;
+  color:#2B283A
+}
+p{
+  margin:0px;
+  font-size: 10px;
+  line-height:150%;
+}
+.country-name{
+letter-spacing: 17%;
+margin-right:5px;
+align-items: center;
+margin:0px;
+padding:0px;
+margin-bottom:10px;
+}
